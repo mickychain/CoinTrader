@@ -1,0 +1,9 @@
+{
+    "huobi": {
+        "access_key": "3dcb4bec-7c76fd36-0e87c678-9ef50",
+        "secretkey": "825f995e-052f8322-46d253b6-4c6c7",
+        "account_id": "12649750",
+        "account_id_pro": "207048",
+        "trade_password": "replace_me"
+    }
+}

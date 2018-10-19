@@ -109,9 +109,10 @@ function calc(trades) {
         if (trade.hbpoints) result.HBPoint -= trade.hbpoints;
         if (trade.bnb) result.BNB -= trade.bnb;
     });
+    result.profit = result.BTC * 6400 + result.MANA * 0.00001 * 6400 + result.HBPoint * 0.27 + result.BNB * 0.00149 * 6400;
     console.log(result);
 }
 
 // hborders();
 // bnOrders();
-main("2018-10-15")
+main("2018-10-17")
